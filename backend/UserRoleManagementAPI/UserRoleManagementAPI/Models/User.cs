@@ -8,7 +8,7 @@
         public string Email { get; set; } = null!;
         public int RoleId { get; set; }
         public Role Role { get; set; } = null!;
-        public DateTime CreateAt { get; set; }
+        public DateTime CreatedAt { get; set; }
         public byte Status { get; set; }
         public byte[]? RowVersion { get; set; }
     }
