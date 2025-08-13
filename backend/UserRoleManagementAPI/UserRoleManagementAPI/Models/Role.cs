@@ -6,5 +6,6 @@
         public string RoleName { get; set; } = null;
         public string? Decription { get; set; }
         public ICollection<User> Users { get; set; } = new List<User>();
+        public ICollection<Permission> Permissions { get; set; } = new List<Permission>();
     }
 }
